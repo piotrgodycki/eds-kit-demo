@@ -90,11 +90,15 @@
 
 @media (width >= 900px) {
   .hero {
-    padding: 64px 32px;
+    padding: 112px 32px;
     min-height: 560px;
   }
 
   .hero h1 {
     margin-bottom: 32px;
+  }
+
+  .hero-content h2 {
+    font-size: 64px;
   }
 }
