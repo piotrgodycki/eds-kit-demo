@@ -54,6 +54,40 @@
   height: 100%;
 }
 
+/* primary action: brand blue on the dark hero */
+.hero a.button.primary,
+.hero button.button.primary {
+  border-color: #3b63fb;
+  background-color: #3b63fb;
+  color: #fff;
+}
+
+.hero a.button.primary:hover,
+.hero a.button.primary:focus-visible,
+.hero button.button.primary:hover,
+.hero button.button.primary:focus-visible {
+  border-color: #1d3ecf;
+  background-color: #1d3ecf;
+  color: #fff;
+}
+
+/* secondary action: white outline, inverts on hover */
+.hero a.button.secondary,
+.hero button.button.secondary {
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.hero a.button.secondary:hover,
+.hero a.button.secondary:focus-visible,
+.hero button.button.secondary:hover,
+.hero button.button.secondary:focus-visible {
+  border-color: #fff;
+  background-color: #fff;
+  color: #131313;
+}
+
 @media (width >= 900px) {
   .hero {
     padding: 64px 32px;
